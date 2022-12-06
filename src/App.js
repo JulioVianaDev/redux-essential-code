@@ -5,10 +5,13 @@ import HooksCakeContainer from './components/HooksCakeContainer';
 import IceCreamContainer from './components/IceCreamContainer';
 import HooksIceCreamContainer from './components/HooksIceCreamContainer';
 import NewCakeContainer from './components/NewCakeContainer';
+import ItemContainer from './components/ItemContainer';
 function App() {
   return (
     
       <div className="App">
+      <ItemContainer bolo />
+      <ItemContainer     />
       <CakeContainer/>
       <IceCreamContainer/>
       <h2>aqui pra baixo é com hooks</h2>

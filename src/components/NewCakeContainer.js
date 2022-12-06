@@ -3,8 +3,8 @@ import { connect, useDispatch } from 'react-redux'
 import { buyCakeManyCakes } from '../redux'
 function NewCakeContainer(props) {
   const [number, setNumber] = useState(0)
+
   return (<>
-    
     <div>NewCakeContainer {props.numOfCakes}</div>
     <input value={number} onChange={(e)=>setNumber(e.target.value)}/>
     <button onClick={()=> props.buyCakeManyCakes(number)}>
