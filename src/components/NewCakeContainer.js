@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { connect, useDispatch } from 'react-redux'
+import { connect } from 'react-redux'
 import { buyCakeManyCakes } from '../redux'
 function NewCakeContainer(props) {
   const [number, setNumber] = useState(0)
